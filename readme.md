@@ -4,4 +4,4 @@ La implementación está basada en usar el protocolo SNMP para recolectar la inf
 
 El script se basa en instalar los "daemon" necesario parra obtener el archivo de configuración ya listo desde el repositorio y reemplazarlo en la ubicación deseada.
 
-NOTA: En algunas distribuciones puede existir problema con SElinux. En cuyo caso se debe añadir excepción o deshabilitarlo.
+NOTA: En algunas distribuciones puede existir problema con SElinux. En cuyo caso existe en el script una sección que arregla el problema, podría generar problemas con equipos sin SElinux
